@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de María Zarattini</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Universo de María Zarattini</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="biografia.html">Biografía</a>
+            <a href="aportaciones.html">Aportaciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="blog.html">Blog</a>
+            <a href="comentarios.html">Comentarios</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="https://example.com/image1.jpg" alt="Imagen de María Zarattini 1">
+                <img src="https://example.com/image2.jpg" alt="Imagen de María Zarattini 2">
+                <img src="https://example.com/image3.jpg" alt="Imagen de María Zarattini 3">
+                <img src="https://example.com/image4.jpg" alt="Imagen de María Zarattini 4">
+                <img src="https://example.com/image5.jpg" alt="Imagen de María Zarattini 5">
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/video4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/video5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
