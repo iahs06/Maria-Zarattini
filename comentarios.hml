@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios sobre María Zarattini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>El Universo de María Zarattini</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="biografia.html">Biografía</a>
+            <a href="aportaciones.html">Aportaciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="blog.html">Blog</a>
+            <a href="comentarios.html">Comentarios</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="comentarios">
+            <h2>Comentarios</h2>
+            <div class="comment-section">
+                <h3>Comparte tus pensamientos</h3>
+                <form action="#" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="comments-display">
+                    <h3>Comentarios recientes</h3>
+                    <!-- Aquí se mostrarían los comentarios -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
