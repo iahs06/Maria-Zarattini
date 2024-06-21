@@ -19,26 +19,36 @@
         </nav>
     </header>
 
-    <main>
-        <section id="comentarios" class="content-section">
-            <h2>Comentarios</h2>
-            <div class="comment-section">
-                <h3>Comparte tus pensamientos</h3>
+     <main>
+        <section id="comentarios">
+            <h2>Déjanos tu opinión</h2>
+            <div class="newspaper-style">
                 <form action="#" method="post">
                     <label for="name">Nombre:</label>
                     <input type="text" id="name" name="name" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
                     <label for="comment">Comentario:</label>
                     <textarea id="comment" name="comment" rows="4" required></textarea>
+
                     <button type="submit">Enviar</button>
                 </form>
-                <div class="comments-display">
-                    <h3>Comentarios recientes</h3>
-                    <!-- Aquí se mostrarían los comentarios -->
+
+                <div class="contact-info">
+                    <h3>Contacto</h3>
+                    <p>Número de contacto: 123-45</p>
+                    <p>Correo electrónico: contacto@ejemplo.com</p>
+                    <p>Visitas: <span id="contador-visitas">0</span></p>
                 </div>
             </div>
         </section>
     </main>
 
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
